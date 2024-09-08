@@ -65,39 +65,38 @@ All the translations for this repo will be listed below:
 ## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">Table of Contents</a>
 
 1. **[Call Stack](#1-call-stack)**
-2. **[Primitive Types](#2-primitive-types)**
-3. **[Value Types and Reference Types](#3-value-types-and-reference-types)**
-4. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)**
-5. **[== vs === vs typeof](#5--vs--vs-typeof)**
-6. **[Function Scope, Block Scope and Lexical Scope](#6-function-scope-block-scope-and-lexical-scope)**
-7. **[Expression vs Statement](#7-expression-vs-statement)**
-8. **[IIFE, Modules and Namespaces](#8-iife-modules-and-namespaces)**
-9. **[Message Queue and Event Loop](#9-message-queue-and-event-loop)**
-10. **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**
-11. **[JavaScript Engines](#11-javascript-engines)**
-12. **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**
-13. **[DOM and Layout Trees](#13-dom-and-layout-trees)**
-14. **[Factories and Classes](#14-factories-and-classes)**
-15. **[this, call, apply and bind](#15-this-call-apply-and-bind)**
-16. **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**
-17. **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**
-18. **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**
-19. **[map, reduce, filter](#19-map-reduce-filter)**
-20. **[Pure Functions, Side Effects, State Mutation and Event Propagation](#20-pure-functions-side-effects-state-mutation-and-event-propagation)**
-21. **[Closures](#21-closures)**
-22. **[High Order Functions](#22-high-order-functions)**
-23. **[Recursion](#23-recursion)**
-24. **[Collections and Generators](#24-collections-and-generators)**
-25. **[Promises](#25-promises)**
-26. **[async/await](#26-asyncawait)**
-27. **[Data Structures](#27-data-structures)**
-28. **[Expensive Operation and Big O Notation](#28-expensive-operation-and-big-o-notation)**
-29. **[Algorithms](#29-algorithms)**
-30. **[Inheritance, Polymorphism and Code Reuse](#30-inheritance-polymorphism-and-code-reuse)**
-31. **[Design Patterns](#31-design-patterns)**
-32. **[Partial Applications, Currying, Compose and Pipe](#32-partial-applications-currying-compose-and-pipe)**
-33. **[Clean Code](#33-clean-code)**
-
+2. **[Message Queue and Event Loop](#2-message-queue-and-event-loop)**
+3. **[Primitive Types](#3-primitive-types)**
+4. **[Value Types and Reference Types](#4-value-types-and-reference-types)**
+5. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#5-implicit-explicit-nominal-structuring-and-duck-typing)**
+6. **[== vs === vs typeof](#6--vs--vs-typeof)**
+7. **[Function Scope, Block Scope and Lexical Scope](#7-function-scope-block-scope-and-lexical-scope)**
+8. **[Expression vs Statement](#8-expression-vs-statement)**
+9. **[IIFE, Modules and Namespaces](#9-iife-modules-and-namespaces)**
+10. **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**  
+11. **[JavaScript Engines](#11-javascript-engines)**  
+12. **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**  
+13. **[DOM and Layout Trees](#13-dom-and-layout-trees)**  
+14. **[Factories and Classes](#14-factories-and-classes)**  
+15. **[this, call, apply and bind](#15-this-call-apply-and-bind)**  
+16. **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**  
+17. **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**  
+18. **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**  
+19. **[map, reduce, filter](#19-map-reduce-filter)**  
+20. **[Pure Functions, Side Effects, State Mutation and Event Propagation](#20-pure-functions-side-effects-state-mutation-and-event-propagation)**  
+21. **[Closures](#21-closures)**  
+22. **[High Order Functions](#22-high-order-functions)**  
+23. **[Recursion](#23-recursion)**  
+24. **[Collections and Generators](#24-collections-and-generators)**  
+25. **[Promises](#25-promises)**  
+26. **[async/await](#26-asyncawait)**  
+27. **[Data Structures](#27-data-structures)**  
+28. **[Expensive Operation and Big O Notation](#28-expensive-operation-and-big-o-notation)**  
+29. **[Algorithms](#29-algorithms)**  
+30. **[Inheritance, Polymorphism and Code Reuse](#30-inheritance-polymorphism-and-code-reuse)**  
+31. **[Design Patterns](#31-design-patterns)**  
+32. **[Partial Applications, Currying, Compose and Pipe](#32-partial-applications-currying-compose-and-pipe)**  
+33. **[Clean Code](#33-clean-code)**    
 ---
 
 ## 1. Call Stack
@@ -134,8 +133,33 @@ All the translations for this repo will be listed below:
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
+## 2. Message Queue and Event Loop
 
-## 2. Primitive Types
+### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
+
+-  [JavaScript Event Loop Explained — Anoop Raveendran](https://medium.com/front-end-hacking/javascript-event-loop-explained-4cd26af121d4)
+-  [The JavaScript Event Loop: Explained — Erin Sweson-Healey](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+-  [Understanding JS: The Event Loop — Alexander Kondov](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
+-  [The JavaScript Event Loop — Flavio Copes](https://flaviocopes.com/javascript-event-loop/)
+-  [Tasks, microtasks, queues and schedules — Jake Archibald](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+-  [Visualising the JavaScript Event Loop with a Pizza Restaurant analogy — Priyansh Jain](https://dev.to/presto412/visualising-the-javascript-event-loop-with-a-pizza-restaurant-analogy-47a8)
+-  [JavaScript Visualized: Event Loop — Lydia Hallie](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
+
+### <img align=center width="40" height="40" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  Videos
+
+- [What the heck is the event loop anyway? | JSConf EU — Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- [JavaScript Event Loop — ComScience Simplified](https://www.youtube.com/watch?v=XzXIMZMN9k4)
+- [I'm stuck in an Event Loop — Philip Roberts](https://www.youtube.com/watch?v=6MXRNXXgP_0)
+- [In The Loop - Jake Archibald | JSConf.Asia 2018](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
+- [Desmitificando el Event Loop (Spanish)](https://www.youtube.com/watch?v=Eqq2Rb7LzYE)
+- [Callbacks, Sincrono, Assíncrono e Event Loop (PT-BR)](https://www.youtube.com/watch?v=6lbBaM18X3g)
+- [JavaScript Event Loop: How it Works and Why it Matters in 5 Minutes - James Q Quick](https://www.youtube.com/watch?v=6lbBaM18X3g)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+## 3. Primitive Types
 
 ### Reference
 
@@ -172,7 +196,7 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 3. Value Types and Reference Types
+## 4. Value Types and Reference Types
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -200,7 +224,7 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 4. Implicit, Explicit, Nominal, Structuring and Duck Typing
+## 5. Implicit, Explicit, Nominal, Structuring and Duck Typing
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -226,7 +250,7 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 5. == vs === vs typeof
+## 6. == vs === vs typeof
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -254,7 +278,7 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 6. Function Scope, Block Scope and Lexical Scope
+## 7. Function Scope, Block Scope and Lexical Scope
 
 ### Books
 
@@ -292,7 +316,7 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 7. Expression vs Statement
+## 8. Expression vs Statement
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -322,7 +346,7 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 8. IIFE, Modules and Namespaces
+## 9. IIFE, Modules and Namespaces
 
 ### Reference
 
@@ -356,32 +380,6 @@ All the translations for this repo will be listed below:
 - [ES6 Modules in the Real World — Sam Thorogood](https://www.youtube.com/watch?v=fIP4pjAqCtQ)
 - [ES6 Modules — TempleCoding](https://www.youtube.com/watch?v=5P04OK6KlXA)
 - [JavaScript IIFE (Immediately Invoked Function Expressions) — Steve Griffith](https://www.youtube.com/watch?v=Xd7zgPFwVX8&)
-
-**[⬆ Back to Top](#table-of-contents)**
-
----
-
-## 9. Message Queue and Event Loop
-
-### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
-
--  [JavaScript Event Loop Explained — Anoop Raveendran](https://medium.com/front-end-hacking/javascript-event-loop-explained-4cd26af121d4)
--  [The JavaScript Event Loop: Explained — Erin Sweson-Healey](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
--  [Understanding JS: The Event Loop — Alexander Kondov](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
--  [The JavaScript Event Loop — Flavio Copes](https://flaviocopes.com/javascript-event-loop/)
--  [Tasks, microtasks, queues and schedules — Jake Archibald](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
--  [Visualising the JavaScript Event Loop with a Pizza Restaurant analogy — Priyansh Jain](https://dev.to/presto412/visualising-the-javascript-event-loop-with-a-pizza-restaurant-analogy-47a8)
--  [JavaScript Visualized: Event Loop — Lydia Hallie](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
-
-### <img align=center width="40" height="40" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  Videos
-
-- [What the heck is the event loop anyway? | JSConf EU — Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [JavaScript Event Loop — ComScience Simplified](https://www.youtube.com/watch?v=XzXIMZMN9k4)
-- [I'm stuck in an Event Loop — Philip Roberts](https://www.youtube.com/watch?v=6MXRNXXgP_0)
-- [In The Loop - Jake Archibald | JSConf.Asia 2018](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
-- [Desmitificando el Event Loop (Spanish)](https://www.youtube.com/watch?v=Eqq2Rb7LzYE)
-- [Callbacks, Sincrono, Assíncrono e Event Loop (PT-BR)](https://www.youtube.com/watch?v=6lbBaM18X3g)
-- [JavaScript Event Loop: How it Works and Why it Matters in 5 Minutes - James Q Quick](https://www.youtube.com/watch?v=6lbBaM18X3g)
 
 **[⬆ Back to Top](#table-of-contents)**
 
